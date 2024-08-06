@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload CSV File</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'js/scripts.js' %}" defer></script>
+</head>
+<body>
+     <header>
+        <h1>CSV File Upload</h1>
+    </header>
+     {% if error %}
+        <p style="color: red;">{{ error }}</p>
+    {% endif %}
+    <div class="container">
+        <h1>Upload CSV File</h1>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

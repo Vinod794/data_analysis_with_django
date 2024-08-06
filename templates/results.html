@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Results</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'js/scripts.js' %}" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Data Analysis Results</h1>
+    </header>
+    <div class="container">
+        <h2 class="table-container">Data Head</h2>
+        {{ data_head|safe }}
+
+        <h2 class="table-container">Summary Statistics</h2>
+        {{ summary_stats|safe }}
+
+        <h2 class="table-container">Missing Values</h2>
+        {{ missing_values|safe }}
+
+        <h2 class="table-container">Histogram</h2>
+        <img src="data:image/png;base64,{{ plot_url }}" alt="Histogram"/>
+
+        <a href="{% url 'upload' %}">Upload Another File</a>
+    </div>
+</body>
+</html>
