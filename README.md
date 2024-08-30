@@ -23,7 +23,7 @@
 <h3>Installation</h3>
 <ol>
     <li>Clone the Repository:
-    <ul>git clone https://github.com/your-username/data_analysis_project.git</ul>
+    <ul>git clone https://github.com/Vinod794/data_analysis_with_django.git</ul>
     <ul>cd data_analysis_project</ul></li>
     <br>
     <li>Create a Virtual Environment:
