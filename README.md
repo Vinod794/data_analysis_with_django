@@ -92,4 +92,4 @@
 <h2>Contributing</h2>
 <p>Contributions are welcome! Please fork the repository and create a pull request with your changes.</p>
 <br><hr>
-<span>For any questions or issues, please contact <a href="https://mail.google.com/mail/u/0/#starred?compose=new">[kothimeravinod@gmail.com]</a>.</span>
+<span>For any questions or issues, please contact <a href="https://mail.google.com/mail/u/0/#starred?compose=new">[kothimeravinod@gmail.com]</a> or connect with me on <a href="www.linkedin.com/in/vinodkothimera">LinkedIn</a>.</span>
